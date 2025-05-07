@@ -1,45 +1,36 @@
 #include <iostream>
 using namespace std;
 
-int main () {
-    float monday = 1, tuesday = 2, wednesday = 3, thursday = 4, friday = 5, saturday = 6, sunday = 7;
+int main() {
+   
+    int number;
 
-
-    cout << "Write a number betweeen 1 to 7: "<< endl;
-    cin << 1;
+    cout << "Write a number betweeen 1 and 7: ";
+    cin >> number;
     
-    monday = 1;
-    tuesday = 2;
-    wednesday = 3;
-    thursday = 4;
-    friday = 5;
-    saturday = 6;
-    sunday = 7;
-
-    switch (day){
+   
+    switch (number){
         case 1:
-            cout << 1 << "monday";
+             cout << "Monday" << endl;
             break;
         case 2:
-            cout << 2 << "tuesday"
+            cout << "Tuesday" << endl;
             break;
         case 3:
-            cout << 3 << "wednesday"
+            cout << "Wednesday" << endl;
             break;
         case 4:
-            cout << 4 << "thursday"
+            cout << "Thursday" << endl;
             break;
         case 5:
-            cout << 5 << "friday"
+            cout << "Friday" << endl;
             break;
         case 6:
-            cout << 6 << "saturday"
+            cout << "Saturday" << endl;
             break;
         case 7:
-            cout << 7 << "tuesday"
+            cout << "Sunday" << endl;
             break;
     }
     return 0;
 }
-
-
