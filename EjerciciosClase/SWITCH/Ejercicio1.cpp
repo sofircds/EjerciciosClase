@@ -31,6 +31,11 @@ int main() {
         case 7:
             cout << "Sunday" << endl;
             break;
+
+        default:
+            cout << "Please insert a valid number between the range" << endl;
+            break;
+
     }
     return 0;
 }
