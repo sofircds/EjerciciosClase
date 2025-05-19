@@ -65,7 +65,7 @@ int main()
             return 0;
             break;
         }
-        return menuPrincipal;
+        break;
 
     case 2:
         cout << "------------------MENU------------------" << endl;
